@@ -5,7 +5,9 @@
     package="elmir.vip.individualproject">
 
     <dist:module dist:instant="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
 
     <application
         android:allowBackup="true"
@@ -15,20 +17,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.home.AboutUAEActivity" android:label="About UAE" android:parentActivityName=".NavigationDrawerActivity" />
+        <activity android:name=".ui.home.AboutExpoActivity" android:label="About EXPO 2020" android:parentActivityName=".NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.PavilionsActivity" android:label="Pavilions" android:parentActivityName=".NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.ScheduleActivity" android:label="Events Schedule" android:parentActivityName=".NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.BarcodeGeneratorActivity" android:label="Generate and Scan" android:parentActivityName=".NavigationDrawerActivity" />
+        <activity android:name=".ui.home.BuyTicketsActivity"  android:label="Purchase Tickets"  android:parentActivityName=".NavigationDrawerActivity" />
         <activity
-            android:name="elmir.vip.individualproject.NavigationDrawerActivity"
+            android:name=".NavigationDrawerActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="elmir.vip.individualproject.LoginActivity"
+            android:name=".LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="elmir.vip.individualproject.RegisterActivity"
+            android:name=".RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="elmir.vip.individualproject.MainActivity"
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="elmir.vip.individualproject.IntroActivity"
+            android:name=".IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
