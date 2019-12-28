@@ -17,26 +17,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.home.AboutUAEActivity" android:label="About UAE" android:parentActivityName=".NavigationDrawerActivity" />
-        <activity android:name=".ui.home.AboutExpoActivity" android:label="About EXPO 2020" android:parentActivityName=".NavigationDrawerActivity"/>
-        <activity android:name=".ui.home.PavilionsActivity" android:label="Pavilions" android:parentActivityName=".NavigationDrawerActivity"/>
-        <activity android:name=".ui.home.ScheduleActivity" android:label="Events Schedule" android:parentActivityName=".NavigationDrawerActivity"/>
-        <activity android:name=".ui.home.BarcodeGeneratorActivity" android:label="Generate and Scan" android:parentActivityName=".NavigationDrawerActivity" />
-        <activity android:name=".ui.home.BuyTicketsActivity"  android:label="Purchase Tickets"  android:parentActivityName=".NavigationDrawerActivity" />
+        <activity android:name=".ui.home.AboutUAEActivity" android:label="About UAE" android:parentActivityName=".activities.NavigationDrawerActivity" />
+        <activity android:name=".ui.home.AboutExpoActivity" android:label="About EXPO 2020" android:parentActivityName=".activities.NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.PavilionsActivity" android:label="Pavilions" android:parentActivityName=".activities.NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.ScheduleActivity" android:label="Events Schedule" android:parentActivityName=".activities.NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.BarcodeGeneratorActivity" android:label="Generate and Scan" android:parentActivityName=".activities.NavigationDrawerActivity" />
+        <activity android:name=".ui.home.BuyTicketsActivity"  android:label="Purchase Tickets"  android:parentActivityName=".activities.NavigationDrawerActivity" />
         <activity
-            android:name=".NavigationDrawerActivity"
+            android:name=".activities.NavigationDrawerActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activities.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".IntroActivity"
+            android:name=".activities.IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

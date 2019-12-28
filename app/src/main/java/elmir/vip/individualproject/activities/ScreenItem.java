@@ -1,4 +1,4 @@
-package elmir.vip.individualproject;
+package elmir.vip.individualproject.activities;
 
 public class ScreenItem {
 
@@ -8,18 +8,6 @@ public class ScreenItem {
     public ScreenItem(String title, String description, int screenImg) {
         Title = title;
         Description = description;
-        ScreenImg = screenImg;
-    }
-
-    public void setTitle(String title) {
-        Title = title;
-    }
-
-    public void setDescription(String description) {
-        Description = description;
-    }
-
-    public void setScreenImg(int screenImg) {
         ScreenImg = screenImg;
     }
 

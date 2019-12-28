@@ -1,4 +1,4 @@
-package elmir.vip.individualproject;
+package elmir.vip.individualproject.activities;
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
+import elmir.vip.individualproject.R
 
 class IntroAdapter(var mContext: Context, var mListScreen: List<ScreenItem>) :
     PagerAdapter() {

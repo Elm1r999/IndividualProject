@@ -1,10 +1,13 @@
-package elmir.vip.individualproject;
+package elmir.vip.individualproject.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import elmir.vip.individualproject.R;
 
 public class MainActivity extends AppCompatActivity {
     Button loginBtn, registerBtn;

@@ -64,8 +64,7 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/img1"
-                        app:srcCompat="@mipmap/ic_launcher_round"
+                        android:src="@drawable/ticket_img"
                         android:focusable="true" />
 
                     <TextView
@@ -100,7 +99,7 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher_round"
+                        android:src="@drawable/scan_qr"
                         android:focusable="true" />
 
                     <TextView
@@ -135,7 +134,7 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@mipmap/ic_launcher_round"
+                        android:src="@drawable/schedule_img"
                         android:focusable="true" />
 
                     <TextView
@@ -170,7 +169,7 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@mipmap/ic_launcher_round"
+                        app:srcCompat="@drawable/pavilion_img"
                         android:focusable="true" />
 
                     <TextView
@@ -205,7 +204,7 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@mipmap/ic_launcher_round"
+                        android:src="@drawable/expo_logo"
                         android:focusable="true" />
 
                     <TextView
@@ -240,14 +239,14 @@
                         android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@mipmap/ic_launcher_round"
+                        android:src="@drawable/dubai_logo"
                         android:focusable="true" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="About UAE"
+                        android:text="About Dubai"
                         android:textColor="#000000"
                         android:textSize="18sp" />
                 </LinearLayout>

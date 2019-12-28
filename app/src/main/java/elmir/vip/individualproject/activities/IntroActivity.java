@@ -1,4 +1,4 @@
-package elmir.vip.individualproject;
+package elmir.vip.individualproject.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,12 +9,16 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
+
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import elmir.vip.individualproject.R;
 
 public class IntroActivity extends AppCompatActivity {
 
@@ -46,9 +50,9 @@ public class IntroActivity extends AppCompatActivity {
 
         // fill list screen
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Fresh Food","text1",R.drawable.img1));
-        mList.add(new ScreenItem("Fast Delivery","text2",R.drawable.img2));
-        mList.add(new ScreenItem("Easy Payment","text3",R.drawable.img3));
+        mList.add(new ScreenItem("Welcome to EXPO2020 Dubai!","This is your companion mobile app \n to the World's Greatest Show", R.drawable.expo_logo));
+        mList.add(new ScreenItem("Register now!","Get full access to all the app features", R.drawable.visitor_pass));
+        mList.add(new ScreenItem("Purchase your tickets with easy payment","173 days of fun\n 20 October 2020 - 10 April 2021", R.drawable.payment_icon));
 
         // setup ViewPager
         screenPager = findViewById(R.id.screen_viewpager);
@@ -68,8 +72,8 @@ public class IntroActivity extends AppCompatActivity {
                     screenPager.setCurrentItem(position);
                 }
 
-                if (position == mList.size()-1) { // when we rech to the last screen
-                    // TODO : show the GETSTARTED Button and hide the indicator and the next button
+                if (position == mList.size()-1) { // when we reach to the last screen
+                    // show the GetStarted Button and hide the indicator and the next button
                     loadLastScreen();
                 }
             }
