@@ -62,20 +62,17 @@ public class IntroActivity extends AppCompatActivity {
         // setup TabLayout with viewpager
         tabIndicator.setupWithViewPager(screenPager);
 
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btnNext.setOnClickListener(v -> {
 
-                position = screenPager.getCurrentItem();
-                if (position < mList.size()) {
-                    position++;
-                    screenPager.setCurrentItem(position);
-                }
+            position = screenPager.getCurrentItem();
+            if (position < mList.size()) {
+                position++;
+                screenPager.setCurrentItem(position);
+            }
 
-                if (position == mList.size()-1) { // when we reach to the last screen
-                    // show the GetStarted Button and hide the indicator and the next button
-                    loadLastScreen();
-                }
+            if (position == mList.size()-1) { // when we reach to the last screen
+                // show the GetStarted Button and hide the indicator and the next button
+                loadLastScreen();
             }
         });
 
@@ -98,23 +95,15 @@ public class IntroActivity extends AppCompatActivity {
         });
 
         // Get Started button click listener
-        btnGetStarted.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //open main activity
-                Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(mainActivity);
-                finish();
-            }
+        btnGetStarted.setOnClickListener(v -> {
+            //open main activity
+            Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(mainActivity);
+            finish();
         });
 
         // skip button click listener
-        tvSkip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                screenPager.setCurrentItem(mList.size());
-            }
-        });
+        tvSkip.setOnClickListener(v -> screenPager.setCurrentItem(mList.size()));
     }
 
     // show the Get Started Button and hide the indicator and the next button

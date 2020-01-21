@@ -1,0 +1,9 @@
+
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(œ˜Õåùÿÿÿÿ
+usquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "holder".(Á¸‰
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ã‘„ž
+bsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ó‡²
+squid:S1319"tThe type of the "pavilions" object should be an interface such as "List" rather than the implementation "ArrayList".(ìß‰øÿÿÿÿ
+gsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(œÞß‚üÿÿÿÿ
+bsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(±•ˆâ
+bsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(Ž®ƒ÷

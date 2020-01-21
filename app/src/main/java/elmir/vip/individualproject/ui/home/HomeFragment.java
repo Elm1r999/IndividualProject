@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import elmir.vip.individualproject.R;
+import elmir.vip.individualproject.ui.home.pavilions.PavilionActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -18,57 +19,39 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         ImageView imgTickets = root.findViewById(R.id.imgTickets);
-        imgTickets.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), BuyTicketsActivity.class);
-                startActivity(intent);
-            }
+        imgTickets.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), BuyTicketsActivity.class);
+            startActivity(intent);
         });
 
         ImageView imgScanner = root.findViewById(R.id.imgScanner);
-        imgScanner.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), BarcodeGeneratorActivity.class);
-                startActivity(intent);
-            }
+        imgScanner.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), BarcodeGeneratorActivity.class);
+            startActivity(intent);
         });
 
         ImageView imgSchedule = root.findViewById(R.id.imgSchedule);
-        imgSchedule.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), ScheduleActivity.class);
-                startActivity(intent);
-            }
+        imgSchedule.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), ScheduleActivity.class);
+            startActivity(intent);
         });
 
         ImageView imgPavilions = root.findViewById(R.id.imgPavilions);
-        imgPavilions.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), PavilionsActivity.class);
-                startActivity(intent);
-            }
+        imgPavilions.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), PavilionActivity.class);
+            startActivity(intent);
         });
 
         ImageView img_AboutExpo = root.findViewById(R.id.img_AboutExpo);
-        img_AboutExpo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AboutExpoActivity.class);
-                startActivity(intent);
-            }
+        img_AboutExpo.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), AboutExpoActivity.class);
+            startActivity(intent);
         });
 
         ImageView img_AboutUae = root.findViewById(R.id.img_AboutUae);
-        img_AboutUae.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AboutUAEActivity.class);
-                startActivity(intent);
-            }
+        img_AboutUae.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), AboutUAEActivity.class);
+            startActivity(intent);
         });
         return root;
     }

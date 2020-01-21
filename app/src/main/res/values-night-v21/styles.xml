@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Theme.Pavilions" parent="Base.Theme.Pavilions">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
     </style>
 
     <style name="WhiteTheme" parent="AppTheme">
@@ -15,12 +15,36 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
-        </item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
+    <style name="Base.Theme.Pavilions" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pavilion_green_500</item>
+        <item name="colorOnPrimary">@color/pavilion_yellow_500</item>
+        <item name="colorPrimaryDark">@color/pavilion_green_700</item>
+        <item name="colorOnSurface">@color/pavilion_black</item>
+        <item name="colorAccent">@color/pavilion_green_700</item>
+        <item name="colorSurface">@color/pavilion_gray_50</item>
+        <item name="colorSecondary">@color/pavilion_yellow_500</item>
+        <item name="android:colorBackground">@color/pavilion_green_500</item>
+    </style>
+
+    <style name="Theme.Pavilions" parent="Base.Theme.Pavilions"/>
+
+    <style name="Theme.Pavilions.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Pavilions.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="TextAppearance.Pavilions.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
+    <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
 
 </resources>

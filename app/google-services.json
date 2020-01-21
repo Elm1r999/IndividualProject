@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "159290985621-ita6qbdsopk19pd4q9eibbc3bnde3kfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "elmir.vip.individualproject",
+            "certificate_hash": "6a7af1341a531b4769189ec5959df773884c5c20"
+          }
+        },
+        {
           "client_id": "159290985621-uqq5ajtnnrs5h3v749k5rbv62k4l2rcm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

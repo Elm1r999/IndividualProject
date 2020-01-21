@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Expo2020_Project</string>
+    <string name="app_name">EXPO2020</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -8,4 +8,36 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_logout">Logout</string>
+
+    <!-- Translatable resources -->
+    <string name="menu_filter_by_grow_zone">Filter by grow zone</string>
+    <string name="pavilion_detail_image_content_description">Image of pavilion</string>
+    <string name="my_list_title">My Pavilions List</string>
+    <string name="pavilion_list_title">Pavilion list</string>
+    <string name="available">Available Pavilions</string>
+    <string name="pavilion_details_title">Pavilion details</string>
+    <string name="add_pavilion">Add New Pavilion</string>
+    <string name="added_pavilion_to_list">Added Pavilion to Favourite List</string>
+    <string name="list_empty">Your favourite list is empty</string>
+    <string name="pavilion_date_header">Added</string>
+    <string name="visited_date_header">Last Visited</string>
+    <string name="menu_item_share_pavilion">Share</string>
+    <string name="share_text_pavilion">Check out the %s pavilion in the app</string>
+
+    <!-- String plurals and their related prefix / suffix strings -->
+    <string name="visiting_prefix" translation_description="Prefix for the text describing how often a plant should be watered. Used in combination with watering_needs_suffix.">Opening soon!</string>
+    <plurals name="visiting_suffix">
+        <item quantity="one" translation_description="Suffix for the text describing when pavilion should be visited, singular.">every day</item>
+        <item quantity="other" translation_description="Suffix for the text describing when pavilion should be visited, plural.">in %d days</item>
+    </plurals>
+
+    <plurals name="watering_next">
+        <item quantity="one" translation_description="Text indicating when the the Pavilion should next be visited, singular. Used in conjunction with last visited date.">Visit tomorrow.</item>
+        <item quantity="other" translation_description="Text indicating when the the Pavilion should next be visited, plural. Used in conjunction with last visited date.">Visit in %d days.</item>
+    </plurals>
+
+    <!-- Accessibility -->
+    <string name="a11y_pavilion_item_image" translation_description="Accessibility text for each of the pavilion images shown in the 'My List' and 'Pavilion list' screens.">Picture of pavilion</string>
+    <string name="empty_string" />
+
 </resources>
