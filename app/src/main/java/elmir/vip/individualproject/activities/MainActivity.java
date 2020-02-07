@@ -21,20 +21,14 @@ public class MainActivity extends AppCompatActivity {
         registerBtn = findViewById(R.id.btn_register);
 
 
-        registerBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent registerActivity = new Intent(MainActivity.this, RegisterActivity.class);
-                startActivity(registerActivity);
-            }
+        registerBtn.setOnClickListener(view -> {
+            Intent registerActivity = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(registerActivity);
         });
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent loginActivity = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(loginActivity);
-            }
+        loginBtn.setOnClickListener(view -> {
+            Intent loginActivity = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(loginActivity);
         });
     }
 }

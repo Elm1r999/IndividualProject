@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import elmir.vip.individualproject.R;
+import elmir.vip.individualproject.ui.home.about_expo.AboutExpoActivity;
 import elmir.vip.individualproject.ui.home.pavilions.PavilionActivity;
 
 public class HomeFragment extends Fragment {

@@ -97,7 +97,7 @@ public class IntroActivity extends AppCompatActivity {
         // Get Started button click listener
         btnGetStarted.setOnClickListener(v -> {
             //open main activity
-            Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
+            Intent mainActivity = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(mainActivity);
             finish();
         });

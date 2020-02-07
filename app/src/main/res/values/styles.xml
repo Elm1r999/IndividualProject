@@ -47,4 +47,21 @@
     <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
+    <style name="MultilineBody">
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <!-- List item primary text, e.g. event titles, codelab titles -->
+    <style name="TextAppearance.ListPrimary" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+
+    <!-- Info -->
+    <style name="TextAppearance.CollapsibleCard" parent="@style/TextAppearance.ListPrimary">
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
 </resources>

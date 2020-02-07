@@ -21,7 +21,7 @@
         <activity android:name=".ui.home.pavilions.PavilionActivity" android:theme="@style/Theme.Pavilions.NoActionBar" />
 
         <activity android:name=".ui.home.AboutUAEActivity" android:label="About UAE" android:parentActivityName=".activities.NavigationDrawerActivity" />
-        <activity android:name=".ui.home.AboutExpoActivity" android:label="About EXPO 2020" android:parentActivityName=".activities.NavigationDrawerActivity"/>
+        <activity android:name=".ui.home.about_expo.AboutExpoActivity" android:label="About EXPO 2020" android:parentActivityName=".activities.NavigationDrawerActivity"/>
         <activity android:name=".ui.home.ScheduleActivity" android:label="Events Schedule" android:parentActivityName=".activities.NavigationDrawerActivity"/>
         <activity android:name=".ui.home.BarcodeGeneratorActivity" android:label="Generate and Scan" android:parentActivityName=".activities.NavigationDrawerActivity" />
         <activity android:name=".ui.home.BuyTicketsActivity"  android:label="Purchase Tickets"  android:parentActivityName=".activities.NavigationDrawerActivity" />

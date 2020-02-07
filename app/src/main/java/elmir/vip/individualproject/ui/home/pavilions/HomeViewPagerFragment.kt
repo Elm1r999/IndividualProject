@@ -11,7 +11,7 @@ import elmir.vip.individualproject.R
 import elmir.vip.individualproject.databinding.FragmentViewPagerBinding
 import elmir.vip.individualproject.ui.home.pavilions.adapters.MY_FAVOURITE_PAVILION_PAGE_INDEX
 import elmir.vip.individualproject.ui.home.pavilions.adapters.PAVILION_LIST_PAGE_INDEX
-import elmir.vip.individualproject.ui.home.pavilions.adapters.SunflowerPagerAdapter
+import elmir.vip.individualproject.ui.home.pavilions.adapters.PavilionPagerAdapter
 
 class HomeViewPagerFragment : Fragment() {
 
@@ -24,7 +24,7 @@ class HomeViewPagerFragment : Fragment() {
         val tabLayout = binding.tabs
         val viewPager = binding.viewPager
 
-        viewPager.adapter = SunflowerPagerAdapter(this)
+        viewPager.adapter = PavilionPagerAdapter(this)
 
         // Set the icon and text for each tab
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->

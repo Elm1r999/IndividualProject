@@ -25,4 +25,7 @@
 
     <!-- minimum height of pavilion detail page so that the collapsing toolbar can be shown on every page -->
     <dimen name="pavilion_description_min_height">555dp</dimen>
+
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
 </resources>

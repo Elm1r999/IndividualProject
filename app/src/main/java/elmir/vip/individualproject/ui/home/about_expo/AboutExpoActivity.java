@@ -1,4 +1,4 @@
-package elmir.vip.individualproject.ui.home;
+package elmir.vip.individualproject.ui.home.about_expo;
 
 import android.os.Bundle;
 

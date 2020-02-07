@@ -8,7 +8,7 @@ import elmir.vip.individualproject.ui.home.pavilions.PavilionListFragment
 const val MY_FAVOURITE_PAVILION_PAGE_INDEX = 0
 const val PAVILION_LIST_PAGE_INDEX = 1
 
-class SunflowerPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
+class PavilionPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
     /**
      * Mapping of the ViewPager page indexes to their respective Fragments

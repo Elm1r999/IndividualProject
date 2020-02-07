@@ -1,8 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.home.AboutExpoActivity">
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/margin_normal"
+    android:paddingTop="@dimen/margin_normal"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frequently_asked_questions"
+            android:text="@string/frequently_asked_questions"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/google_sans"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_when_and_where_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardDescription="@string/what_is_world_expo"
+            app:cardTitle="What is a World Expo?"/>
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_how_can_stay_informed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/what_is_expo2020"
+            app:cardTitle="What is Expo2020 Dubai?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_will_the_sessions_be_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/who_is_participating_in_expo"
+            app:cardTitle="Who is participating at Expo 2020 Dubai?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_can_i_reserve_sessions_ahead_of_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/when_is_expo_starting"
+            app:cardTitle="When is Expo 2020 Dubai and what are the opening hours?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_best_way_to_get_to_shoreline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/where_is_expo"
+            app:cardTitle="Where is Expo 2020 Dubai and what methods of transport can I take to get there?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_pick_up_badge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/what_will_happen_after_expo"
+            app:cardTitle="What will happen to the Expo 2020 Dubai site once the Expo finishes?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_what_should_i_wear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/is_safe_in_dubai"
+            app:cardTitle="Is it safe to visit the UAE?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_onsite_food_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/what_is_official_religion_uae"
+            app:cardTitle="What is the official religion of the UAE?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_if_i_lose_something_else"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/what_to_wear"
+            app:cardTitle="What should I wear when I visit the UAE/Expo 2020 Dubai?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_after_dark_program"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/how_to_take_part_in_expo"
+            app:cardTitle="How can I take part in Expo 2020 Dubai?" />
+
+        <elmir.vip.individualproject.ui.home.about_expo.CollapsibleCard
+            android:id="@+id/faq_accessibility_needs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            app:cardDescription="@string/people_of_determination"
+            app:cardTitle="How is Expo 2020 Dubai accommodating people of determination?" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -23,7 +23,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="Welcome! \n This is the dashboard"
+                android:text="Welcome! \n Select one of the options from below"
                 android:textAlignment="center"
                 android:textAppearance="@style/Widget.MaterialComponents.TextView"
                 android:textColor="@android:color/black"
@@ -37,7 +37,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="620dp"
             android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:columnOrderPreserved="false"
@@ -50,7 +50,7 @@
                 android:layout_columnWeight="1"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10dp"
-                app:cardElevation="6dp" >
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -61,11 +61,11 @@
 
                     <ImageView
                         android:id="@+id/imgTickets"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/ticket_img"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ticket_img" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -96,17 +96,17 @@
 
                     <ImageView
                         android:id="@+id/imgScanner"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/scan_qr"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/scan_qr" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Scan QR"
+                        android:text="QR code"
                         android:textColor="#000000"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -131,11 +131,11 @@
 
                     <ImageView
                         android:id="@+id/imgSchedule"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/schedule_img"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/schedule_img" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -166,11 +166,11 @@
 
                     <ImageView
                         android:id="@+id/imgPavilions"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@drawable/pavilion_img"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:srcCompat="@drawable/pavilion_img" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -201,11 +201,11 @@
 
                     <ImageView
                         android:id="@+id/img_AboutExpo"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/expo_logo"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/expo_logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -236,11 +236,11 @@
 
                     <ImageView
                         android:id="@+id/img_AboutUae"
-                        android:clickable="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/dubai_logo"
-                        android:focusable="true" />
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/dubai_logo" />
 
                     <TextView
                         android:layout_width="wrap_content"

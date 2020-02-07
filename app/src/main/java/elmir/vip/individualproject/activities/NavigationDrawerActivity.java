@@ -70,12 +70,9 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         userId = fAuth.getCurrentUser().getUid();
 
         DocumentReference documentReference = fStore.collection("users").document(userId);
-        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
-            @Override
-            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
-                fullName.setText(documentSnapshot.getString("fName"));
-                email.setText(documentSnapshot.getString("email"));
-            }
+        documentReference.addSnapshotListener(this, (documentSnapshot, e) -> {
+            fullName.setText(documentSnapshot.getString("fName"));
+            email.setText(documentSnapshot.getString("email"));
         });
     }
 
