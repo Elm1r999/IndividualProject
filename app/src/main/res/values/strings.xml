@@ -56,5 +56,11 @@
     <string name="how_to_take_part_in_expo">There are many ways in which you can participate. The Expo Live programme offers support and funding to those with creative solutions to global challenges, the Expo 2020 Volunteers programme is welcoming more than 30,000 volunteers, the World Majlis sessions bring together current and aspiring thought leaders from across the planet, and a wide range of business opportunities are available at the Online Marketplace.</string>
     <string name="people_of_determination">Under the UAE’s National Policy for Empowering People with Special Needs, those with special needs or disabilities are referred to as ‘people of determination’ to recognise their achievements in different fields. Expo 2020 is currently considering a wide range of measures to ensure we deliver an accessible Expo for everyone. A variety of services will be offered onsite, including rentals of wheelchairs and electric convenience vehicles.</string>
     <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="login_text">Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account_yet_register_now">No account yet? Register now!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_address">Email Address</string>
 
 </resources>

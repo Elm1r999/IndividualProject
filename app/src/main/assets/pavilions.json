@@ -2,7 +2,7 @@
   {
     "pavilionId": "australia",
     "name": "Australia",
-    "description": "Australia pavilion",
+    "description": "<h1>Blue Sky Dreaming</h1> <br><br> The theme encapsulates Australian optimism, ambition and creativity. It celebrates Australian diversity and collaboration, and envisions infinite possibilities founded on 60,000 years of innovation. <br><br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/australia\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 1,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/australia/expo2020-pavilion-australia-1-1600-x-900.jpg"
@@ -10,7 +10,7 @@
   {
     "pavilionId": "austria",
     "name": "Austria",
-    "description": "Austria pavilion",
+    "description": "<h1>Austria makes sense</h1> <br><br> Walk through spectacular spatial sequences and liven up your senses as you discover how East meets West, how tradition brings nations closer, and how technology creates future opportunities. <br><br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/austria\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/austria/expo2020-pavilion-austria1-3200-x-2000.jpg?h=1800&w=3200&hash=78B3F2BD2A7B057A16F835C3185209DE"
@@ -18,15 +18,23 @@
   {
     "pavilionId": "azerbaijan",
     "name": "Azerbaijan",
-    "description": "Azerbaijan pavilion",
+    "description": "<h1>The pavilion’s focus on the environment is reflected in its ‘mean, lean, green’ design</h1> <br><br>The nature-inspired pavilion, which has a leaf-shaped roof, will encourage visitors to consider the impact of their individual choices and invest in the future now to restore balance to our natural world. <br><br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/azerbaijan\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/azerbaijan/expo2020-azerbaijan-1-3200-x-1800.jpg?h=1800&w=3200&hash=A2E19A05A78F775545633204E9483D66"
   },
   {
+    "pavilionId": "bahrain",
+    "name": "Bahrain",
+    "description": "<h1>Density as opportunity </h1> <br> <br> Exploring how Bahrain’s geography has defined its development. With limited land available, Bahrain has always evolved, encouraging trade, entrepreneurship and innovation – some of its main strengths. <br><br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/bahrain\" target=\"_blank\">For more details</a>",
+    "growZoneNumber": 9,
+    "visitingInterval": 7,
+    "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/bahrain/bahrain-pavilion-3200x1800.jpg?h=1800&w=3200&hash=42F3DA5E3C8332A5FCEBE0EABA51C627"
+  },
+  {
     "pavilionId": "belarus",
     "name": "Belarus",
-    "description": "Belarus pavilion",
+    "description": "<h1> Discover how nature and technology can help us grow together </h1> <br><br>Belarus is exploring the themes of innovation, investment and the individual at its pavilion, which recreates the look and feel of the nation’s primeval forests.<br><br>And, just as trees in a forest grow stronger and live longer when they stand together, the experience will invite visitors to collaborate with one another to ensure we share a better future together.<br><br>As well as encouraging visitors to connect minds for the greater good, Belarus will showcase its high-tech creations, sustainability initiatives and opportunities to invest. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/belarus\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/belarus/expo2020-pavilion-belarus-2-3200-x-1800.jpg?h=1800&w=3200&hash=7778C19864DD4974A30629932C06D58D"
@@ -34,7 +42,7 @@
   {
     "pavilionId": "belgium",
     "name": "Belgium",
-    "description": "Belgium pavilion",
+    "description": "<h1> Explore Belgium's 'green arch', which is home to a host of innovations and some tasty extras. </h1><br>The Belgium Pavilion at Expo 2020 Dubai will draw on renewable resources to feed its energy needs, smart technologies to feed its plants and the country’s world-class cuisine to feed its guests. Covered in lush greenery, the arch-inspired pavilion is designed to demonstrate a green and smart Belgium and confirm that Belgium is a pioneering nation with a comprehensive platform for opportunities that are open to the world.<br><br>Visitors will have the opportunity to interact with a host of Belgian innovations while treating themselves to some of the nation’s tastiest culinary specialties – including its world-famous fries, known as frietjes. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/belgium\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/belgium/expo2020-belgium-1-3200-x-1800.jpg?h=1800&w=3200&hash=E986AC8060058D702BFB62B6DE5ACB2A"
@@ -42,7 +50,7 @@
   {
     "pavilionId": "brazil",
     "name": "Brazil",
-    "description": "Brazil pavilion",
+    "description": "<h1> Discover Brazil’s incredible diversity, from flora and fauna to arts and culture </h1> <br>Given that the world’s largest river runs through Brazil, it's no surprise that the nation’s Expo 2020 pavilion incorporates water as its most striking feature.<br><br>Recreating the Amazon basin, the pavilion will have a water feature that visitors can walk through (or around) as they take in the sights, sounds and scents of Brazil’s riverside areas. Visitors will discover more about the country’s rich biodiversity and its potential in sustainable production. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/brazil\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/brazil/expo2020-pavilion-brazil-2-3200-x-2000.jpg?h=1800&w=3200&hash=290FB3F880E7A7827BFFCB31C55C1C3F"
@@ -50,7 +58,7 @@
   {
     "pavilionId": "canada",
     "name": "Canada",
-    "description": "Canada pavilion",
+    "description": "<h1>Embark on an immersive journey through Canada's past, present and future</h1><br><br>The Canada Pavilion, inspired by Canadian landscapes and Arabic architectural elements, is a symbolic representation of the strong cultural and economic ties between Canada and the UAE.<br><br>Discover the values that drive the Canadian spirit of innovation and collaboration.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/canada\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/canada/expo2020-pavilion-canada-1-3200-x-1800.jpg?h=1800&w=3200&hash=EC92D8FA4C89DDF32E39FA4338D0DF04"
@@ -58,7 +66,7 @@
   {
     "pavilionId": "china",
     "name": "China",
-    "description": "China pavilion",
+    "description": "<h1>Combining traditional Chinese elements with modern architectural concepts</h1><br><br>The China Pavilion will be one of the largest at Expo 2020 Dubai at 4,636 sqm. The China Pavilion will symbolise hope and a bright future, and is designed in line with the principle of the “combination of the Chinese and Western culture with Chinese culture as the core”.<br><br>It will vividly showcase China’s profound culture and longstanding history by artistically integrating the Chinese elements with modern technologies. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/china\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/china/expo2020-china-1-3200-x-1800.jpg?h=1800&w=3200&hash=BF9A8650B20741B2972FAD08D2E15D0A"
@@ -66,7 +74,7 @@
   {
     "pavilionId": "czech-republic",
     "name": "Czech Republic",
-    "description": "Czech Republic pavilion",
+    "description": "<h1>View new technology that promises to transform a desert into an oasis</h1><br>Visitors to the Czech Republic Pavilion will be impressed by its centrepiece, which creates fertile land in the barren conditions of the desert by extracting water vapour from the air. This feat of technology, which has enormous potential, uses only solar energy and Czech innovations.<br><br>The pavilion will also boast a large-scale installation that shows the nation's long history of glassmaking. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/czech-republic\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/czech-republic/expo2020-pavilion-czechrepublic-1-3200-x-2000.jpg?h=1800&w=3200&hash=FFB2EFB9AFFDEA277EE76634DA0CC8BE"
@@ -74,7 +82,7 @@
   {
     "pavilionId": "finland",
     "name": "Finland",
-    "description": "Finland pavilion",
+    "description": "<h1>Discover the country’s natural beauty and knack for innovation</h1><br><br>Resembling an Arabic tent made of snow, the Finland Pavilion aims to bring together the country’s icy landscapes with the culture of Expo 2020’s host nation. Inside the 'Snow Cape', visitors will find a peaceful haven full of surprises.<br><br>Finland will showcase its many areas of excellence, from education and sustainable technologies to health and wellbeing, as well as the natural beauty that attracts travellers from around the world. <br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/finland\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/finland/expo2020-pavilion-finland-1-3200-x-2000.jpg?h=1800&w=3200&hash=617F49D26ED5A81380462C92FC75CD70"
@@ -82,7 +90,7 @@
   {
     "pavilionId": "france",
     "name": "France",
-    "description": "France pavilion",
+    "description": "<h1>A showcase of the nation’s cultural riches and dedication to sustainability</h1><br><br>Titled ‘Light, Lights’, the pavilion’s theme explores light as an enabler of progress, a vehicle for connections and a source of heat and creativity. It seeks to embody the Age of Enlightenment, the 18th century movement spearheaded by French intellectuals that emphasised concepts such as knowledge exchange and tolerance.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/france\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/france/expo2020-france-3-3200-x-1800.jpg?h=1800&w=3200&hash=A9671C0538753A7BF214D933F2A66F15"
@@ -90,7 +98,7 @@
   {
     "pavilionId": "germany",
     "name": "Germany",
-    "description": "Germany pavilion",
+    "description": "<h1>‘Enrol’ at Campus Germany for the lesson of a lifetime</h1><br><br>Based around a campus theme, Germany’s pavilion at Expo 2020 presents a wonderful array of creative environmental ideas with real-life results. Visitors can wear cutting-edge connected devices as they venture through themed areas that include The Energy Lab, The Future City Lab and The Biodiversity Lab.<br><br>Choose from 155,000 balls in the colours of Germany’s flag to explore the nation’s pioneering Sustainability efforts, and end your experience with a group activity on swings that illustrates the importance of collaboration.<br><br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/germany\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/germany/expo2020-pavilion-germany-3-3200-x-2000.jpg?h=1800&w=3200&hash=E73062AF7F7955D11E03C4ABCBE6E6CE"
@@ -98,7 +106,7 @@
   {
     "pavilionId": "india",
     "name": "India",
-    "description": "India pavilion",
+    "description": "<h1>Future is in India</h1><br><br>Building on India’s culture, heritage and technologies, including its space programme, the Pavilion will reflect ‘new India’ and show the strengths of its human resources and youth’s aspirations.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/india\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/india/expo2020-pavilion-india-1-3200-x-1800.jpg?h=1080&w=1920&hash=FCFFACC518BE418F5441A5947390C150"
@@ -106,15 +114,7 @@
   {
     "pavilionId": "italy",
     "name": "Italy",
-    "description": "Italy pavilion",
-    "growZoneNumber": 9,
-    "visitingInterval": 7,
-    "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/italy/expo2020-italy-3-3200-x-1800.jpg?h=1800&w=3200&hash=0DBC7861E3F700BE47214F1C4FC635A7"
-  },
-  {
-    "pavilionId": "italy",
-    "name": "Italy",
-    "description": "Italy pavilion",
+    "description": "<h1>Beauty Connects People</h1> <br><br> See how creativity comes from different places and disciplines in an unprecedented journey through the Italy of Beauty, touching on the country’s extraordinary past, present and future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/italy\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/italy/expo2020-italy-3-3200-x-1800.jpg?h=1800&w=3200&hash=0DBC7861E3F700BE47214F1C4FC635A7"
@@ -122,7 +122,7 @@
   {
     "pavilionId": "japan",
     "name": "Japan",
-    "description": "Japan pavilion",
+    "description": "<h1>Enjoy traditional hospitality and high-tech entertainment</h1> <br><br> Guests welcomed by Japanese traditional Origami shapes that symbolize the respect shown to others through the Japanese art of Origata gift wrapping.<br><br>Visitors will be encouraged to put the ‘Join.Sync.Act.’ message into action, and discover the vibrant art, culture and technology of the Far Eastern nation, which will host Expo 2025 in Osaka, Kansai.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/japan\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/japan/expo2020-pavilion-japan-3-3200-x-1800.jpg?h=1080&w=1920&hash=B4A3F3A6477B2832FCA0666F0545D5AE"
@@ -130,7 +130,7 @@
   {
     "pavilionId": "korea",
     "name": "Republic of Korea",
-    "description": "Republic of Korea pavilion",
+    "description": "<h1>A walk into the boundless where future mobility comes to life</h1> <br><br> The experiential walks on the mobile-guided trail take visitors through the unique and unprecedented architecture with a sequence of mobility-related experiences.<br><br>As the link to infinite possibilities, the exhibition featuring Korea’s soft power and technology in the field of mobility will bring an imagination as well as searching for deeper meaning and glimpses of the future mobility.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/korea\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/korea/expo2020-pavilion-korea-1-3200-x-1800.jpg?h=1800&w=3200&hash=CFC2B39BC71A351A1F6CDF1195E03DED"
@@ -138,7 +138,7 @@
   {
     "pavilionId": "latvia",
     "name": "Latvia",
-    "description": "Latvia pavilion",
+    "description": "<h1>Connecting minds, creating more breathable futures</h1> <br><br> The design of the pavilion means it unfolds as one open surface, creating a distinct climate inside its own limits. It will be a space that is continuous, unobstructed and accessible for all.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/latvia\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/latvia/expo2020-pavilion-latvia-2-1600-x-900.jpg"
@@ -146,7 +146,7 @@
   {
     "pavilionId": "luxembourg",
     "name": "Luxembourg",
-    "description": "Luxembourg pavilion",
+    "description": "<h1>Discover the nation’s efforts to connect human, natural, technical, industrial and financial resources</h1><br>Luxembourg will highlight the resources that have contributed to the country’s success, as well as the essential need to preserve them and create new opportunities through their intelligent use.<br><br>The European nation will also delve into the circular economy, diversity in society and the Next Industrial Revolution. The design of the pavilion, resembling a Mobius strip, symbolises Luxembourg’s openness, dynamism and reliability.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/luxembourg\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/luxembourg/expo2020-pavilion-luxembourg-2-3200-x-1800.jpg?h=1800&w=3200&hash=95C63D07B549F80E165ABA57A90CACF3"
@@ -154,7 +154,7 @@
   {
     "pavilionId": "malaysia",
     "name": "Malaysia",
-    "description": "Malaysia pavilion",
+    "description": "<h1>Energising Sustainability</h1> <br><br> The pavilion’s ‘Energising Sustainability’ theme captures Malaysia’s commitment to balance socio-economic progress with environmental concerns, to ensure a secure and sustainable future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/malaysia\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/malaysia/expo2020-pavilion-malaysia-3-3200-x-1800.jpg?h=1080&w=1920&hash=0755310C5121E4E8F3E03A15847C316B"
@@ -162,7 +162,7 @@
   {
     "pavilionId": "monaco",
     "name": "Monaco",
-    "description": "Monaco pavilion",
+    "description": "<h1>Explore the principality's diverse national identity by taking a multi-sensory journey</h1> <br><br> Inspired by the 'Rock of Monaco', this gem-like, polygonal pavilion will take visitors on a multi-sensory journey through mirrored exhibition spaces, replicating the sights and smells of the French Riviera.<br><br>The structure features two main exhibition areas. The 'Garden of Opportunities' includes a variety of interactive experiences that will bring to life Monaco's warm, sunny climate. Visitors will then enter the 'Kaleidoscope', which will showcase the country's art, culture, innovation, history, gastronomy and more.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/monaco\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/monaco/expo2020-monaco-1-3200-x-1800.jpg?h=1800&w=3200&hash=82CC99C24A31F9E0C73BBDA3AC558A51"
@@ -170,7 +170,7 @@
   {
     "pavilionId": "montenegro",
     "name": "Montenegro",
-    "description": "Montenegro pavilion",
+    "description": "<h1>Immerse yourself in Montenegro’s rich cultural history, explore its sustainability-driven future, and admire its wild beauty.</h1><br>The Montenegro pavilion will offer visitors an insight into the country’s multi-religious cultural heritage, its national parks, water resources and diverse ecosystems, while celebrating it as an open and safe investment destination.<br><br>It will also highlight the richness of Montenegro’s biodiversity, its innovative efforts to strike a balance between man and nature, and its strategy for rapid economic development that seeks to preserve the environment for future generations.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/montenegro\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/montenegro/expo2020-montenegro-1-3200-x-1800.jpg?h=1080&w=1920&hash=E12BA7CE2D4C08109410A4B3604609ED"
@@ -178,7 +178,7 @@
   {
     "pavilionId": "morocco",
     "name": "Morocco",
-    "description": "Morocco pavilion",
+    "description": "<h1>Morocco is a land rich in talent, full of opportunities and a source of inspiration</h1> <br><br> The pavilion architecture combines modernity and tradition with a building that, while being at the forefront of construction techniques, is inspired by ancestral methods using earth, like in some Moroccan villages.<br><br>Through a continuous ramp that recalls the streets of the Moroccan medinas, and its \"Wast Eddar\" patio, the pavilion and its various exhibition areas will offer visitors a unique immersive experience.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/morocco\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/morocco/expo2020-morocco-1-3200-x-1800.jpg?h=1080&w=1920&hash=E13FBCEB7981BB16C45787D85AF6F51C"
@@ -186,7 +186,7 @@
   {
     "pavilionId": "netherlands",
     "name": "Netherlands",
-    "description": "Netherlands pavilion",
+    "description": "<h1>Enter a miniature world with its own climate system</h1> <br><br> Brimming with sustainable solutions, the Netherlands Pavilion will harvest water, energy and food through innovations including a cone-shaped vertical farm.<br><br>Possessing a naturally controlled climate, the structure will be built using locally sourced materials that will be recycled after Expo, minimising its ecological footprint.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/netherlands\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/netherlands/expo2020-pavilion-netherlands-2-3200-x-2000.jpg?h=1800&w=3200&hash=AA12E755CAE8808E0AB9BA3EFE98BC5C"
@@ -194,7 +194,7 @@
   {
     "pavilionId": "new-zealand",
     "name": "New Zealand",
-    "description": "New Zealand pavilion",
+    "description": "<h1>Explore the strands that connect all life, and the oneness of people and the environment</h1> <br><br>The New Zealand Pavilion’s theme reflects the Maori value of \"\"kaitiakitanga\"\", which emphasizes the deep kinship between people and the environment.<br><br>The island nation’s indigenous culture is also highlighted through the pavilion's architecture, with a design that illustrates \"\"waka taonga\"\", the Maori tradition of using handcrafted containers to safeguard valuable items. In this spirit, the pavilion serves as a receptacle for New Zealand’s essential values.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/new-zealand\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/new-zealand/expo2020-pavilion-newzealand-3-3200-x-1800.jpg?h=1800&w=3200&hash=2B5FEEFC06E93F07F61575A1C04B9DE5"
@@ -202,7 +202,7 @@
   {
     "pavilionId": "norway",
     "name": "Norway",
-    "description": "Norway pavilion",
+    "description": "<h1>Explore the deep blue sea and learn about the importance of ocean conservation</h1> <br> <br>The Norway Pavilion will allow you to explore the deep blue sea and learn about the importance of ocean conservation – all without changing into a wetsuit.<br><br>Find out about Norway's seafaring heritage and its focus on maritime activities by taking an interactive journey from beneath the seabed to the water's surface. The pavilion will highlight some of the most pressing environmental issues facing our oceans, and showcase cutting-edge innovations that could help to overcome these challenges.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/norway\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/norway/expo2020-norway-2-3200-x-1800.jpg?h=1800&w=3200&hash=CA6259DDA59F24FA5909A869DC4046BA"
@@ -210,7 +210,7 @@
   {
     "pavilionId": "oman",
     "name": "Oman",
-    "description": "Oman pavilion",
+    "description": "<h1>Traverse thousands of years of Omani progress and international collaboration</h1> <br><br>Oman’s ‘gift to the world’, frankincense has played a vital and varied role in the nation’s development from ancient times to the present day.<br><br>The Oman Pavilion pays tribute to this precious resin, with its exterior resembling the tree that produces frankincense. Inside there are five zones detailing the diverse ways in which frankincense has benefited Oman – spanning everything from medicine to food to cosmetics.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/oman\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/oman/expo2020-pavilion-oman-2-3200-x-2000.jpg?h=1800&w=3200&hash=C2D91A0CD6977DE3DEAA2AEF44221A0C"
@@ -218,7 +218,7 @@
   {
     "pavilionId": "peru",
     "name": "Peru",
-    "description": "Peru pavilion",
+    "description": "<h1>Embark on a journey of unique emotions and experiences</h1><br><br>Peru’s cultural diversity, infinite wealth and ancient wisdom are the greatest protagonists that still surprise the world and will help humanity to build a better future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/peru\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/peru/expo2020-pavilion-peru-1-3200-x-1800.jpg?h=1800&w=3200&hash=BE59E7EADFAD46351B849DD89EE53D1B"
@@ -226,7 +226,7 @@
   {
     "pavilionId": "philippines",
     "name": "Philippines",
-    "description": "Philippines pavilion",
+    "description": "<h1>Designed to resemble a coral reef or ‘Bangkóta’</h1> <br><br>The natural, organic shape of the coral reef, or Bangkóta will draw visitors to the Philippine Pavilion into defined, free-flowing, open spaces, reflecting how Filipino culture embraces openness, meaningful encounters, and are connected around the world by travel, migration, and technology.<br><br>The multi-level structure is built on the idea of connectivity and permeability, enabling visitors to experience the island nation and its resilient, creative people. It will showcase a nation with millennia of history, a sustainable culture, and a vibrant vision of its future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/philippines\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/philippines/expo2020-philippines-1-3200-x-1800.jpg?h=1800&w=3200&hash=BCA630E274D129AF63353BC17382D828"
@@ -234,7 +234,7 @@
   {
     "pavilionId": "poland",
     "name": "Poland",
-    "description": "Poland pavilion",
+    "description": "<h1>Delve into Poland’s deep-rooted ties with the modern world</h1><br><br>Centrally located in Europe, Poland perfectly embodies the Expo 2020 subtheme of Mobility, be it in the form of cultural dialogue, commercial exports or social migration.<br><br>The tree-like structure, which references the large-scale migration of birds from Poland to the Arab world, explores the nation's diverse global connections, as well as its role as a leading producer of goods.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/poland\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/poland/expo2020-pavilion-poland-1-3200-x-2000.jpg?h=1800&w=3200&hash=2A8ECB0DCB7E389D90E783F407F73487"
@@ -242,7 +242,7 @@
   {
     "pavilionId": "russia",
     "name": "Russia",
-    "description": "Russia pavilion",
+    "description": "<h1>Offering visitors a chance to see what future minds will be able to achieve</h1> <br><br>How do we find our places in the world? How can we better understand each other despite our differences? How will we connect people and minds without moving them physically?<br><br>The Russia pavilion will help visitors to answer these questions and give them an insight into how the country sees the future.<br><br>Showcasing Russia’s extensive knowledge in various fields, the pavilion will take visitors to the next level, where they will be able to experience the possibilities of tomorrow.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/russia\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/russia/expo2020-pavilion-russia-1-3200-x-1800.jpg?h=1800&w=3200&hash=F658E4A4E551FC2B9781E49C002A24E5"
@@ -250,7 +250,7 @@
   {
     "pavilionId": "saudi-arabia",
     "name": "Saudi Arabia",
-    "description": "Saudi Arabia pavilion",
+    "description": "<h1>Representing the Kingdom’s welcoming character and deep-rooted culture</h1> <br><br>The pavilion, resembling a huge window opening up from the ground and soaring into the sky, will offer visitors an immersive journey showcasing Saudi Arabia’s transformation.<br><br>Balancing rich heritage and natural wonders with the energy, creativity and innovativeness of its people, the pavilion will demonstrate how Saudi Arabia is shaping both its own and the world’s future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/saudi-arabia\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/ksa/expo2020-ksa-1-3200-x-1800.jpg?h=1800&w=3200&hash=3D31FDF6C22E9397926BB4C8BBEA1471"
@@ -258,7 +258,7 @@
   {
     "pavilionId": "Singapore",
     "name": "Singapore",
-    "description": "Singapore pavilion",
+    "description": "<h1>Nature. Nurture. Future.</h1><br><br>Showcasing Singapore’s urban innovations, the net-zero energy pavilion designed by WOHA explores our journey towards liveability and resilience.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/singapore\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/singapore/expo2020-pavilion-singapore-1-3200-x-1800.jpg?h=1080&w=1920&hash=719E40B958BACEB8CC604EDCDC9B4E2A"
@@ -266,7 +266,7 @@
   {
     "pavilionId": "spain",
     "name": "Spain",
-    "description": "Spain pavilion",
+    "description": "<h1>Discover Spanish creativity throughout the ages</h1> <br><br>Exploring everything from historical innovation and adventure to biodiversity and organ transplants, the Spain Pavilion offers a diverse experience with a town square atmosphere.<br><br>The structure’s conical shape increases air flow to keep visitors cool as they enjoy traditional entertainment and delve into 800 years of Islamic rule in Spain, a period during which literature, architecture and education flourished.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/spain\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/spain/expo2020-pavilion-spain-1-3200-x-1800.jpg?h=1800&w=3200&hash=D197178A827D8693791B7EE179C46FB5"
@@ -274,7 +274,7 @@
   {
     "pavilionId": "sweden",
     "name": "Sweden",
-    "description": "Sweden pavilion",
+    "description": "<h1>Be inspired as you walk through a rich woodland</h1><br><br>The Scandinavian woodlands combine with Islamic geometric design to inspire the architecture and storytelling of the Sweden Pavilion.<br><br>Visitors can stroll through its path, flanked by wooden trunks, and learn how Sweden is building smart cities, developing the next generation of travel, innovating life sciences and developing a bio-circular economy.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/sweden\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/sweden/expo2020-pavilion-sweden-3-3200-x-2000.jpg?h=1800&w=3200&hash=FD608A16E9CF469C4D2BB0B6A0D653A3"
@@ -282,7 +282,7 @@
   {
     "pavilionId": "switzerland",
     "name": "Switzerland",
-    "description": "Switzerland pavilion",
+    "description": "<h1>Take a ‘hike’ and see how Switzerland is responding to the challenges of tomorrow</h1><br><br>Visitors can ‘hike’ through the Switzerland Pavilion, which will show the country's cultural values and progressive ideas in a structure inspired by Bedouin tents.<br><br>After tackling Switzerland's foggy mountains, visitors can head up to the rooftop for a stylish hangout with great views of Expo 2020, or try some national specialties in the pavilion's restaurant.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/switzerland\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/switzerland/expo2020-pavilion-switzerland-1-3200-x-2000.jpg?h=1800&w=3200&hash=B623AD2913808437C83FF865A160F36D"
@@ -290,7 +290,7 @@
   {
     "pavilionId": "thailand",
     "name": "Thailand",
-    "description": "Thailand pavilion",
+    "description": "<h1>Experience Thai smiles, innovation and flora</h1><br><br>Covered on the outside by a curtain of 500-plus woven artificial flowers, the Thailand Pavilion will present the nation’s warm hospitality and its capabilities in digital innovation and technology.<br><br>Visitors can share their own flower engravings within the pavilion’s garden, and discover more about the nation’s creative advances in the fields of transportation, logistics, digital connectivity and personal mobility.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/thailand\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/thailand/expo2020-pavilion-thailand-1-3200-x-2000.jpg?h=1800&w=3200&hash=CDFFC92C0F389077702E6736825089B8"
@@ -298,7 +298,7 @@
   {
     "pavilionId": "turkmenistan",
     "name": "Turkmenistan",
-    "description": "Turkmenistan pavilion",
+    "description": "<h1>A fountain sculpture featuring five Akhal-Teke horses and a 50m LED façade will greet visitors.</h1><br>Native to Turkmenistan and symbolising national pride, the horses will play a prominent role in a pavilion experience that promises to immerse the senses. 360 degree imagery of five horses will be projected onto the walls, reflecting the movement of people within the pavilion and accompanying visitors through an interactive three-sided hologram.<br><br>The journey will guide visitors from a colourful visual show to a space that highlights the nation’s agricultural connections via elements representing wheat, cotton and wind – with a digital ‘crop’ moving and growing as it responds to touch.<br><br>The pavilion will also showcase Turkmenistan’s heritage and modern achievements, alongside its spiritual dimensions, development priorities, international ties and progress towards the Sustainable Development Goals.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/turkmenistan\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/turkmenistan/expo2020-turkmenistan-2-3200-x-1800.jpg?h=1800&w=3200&hash=18A992C877BF8AF29744A5FBE3014AFA"
@@ -306,7 +306,7 @@
   {
     "pavilionId": "uae",
     "name": "UAE",
-    "description": "UAE pavilion",
+    "description": "<h1>Introducing the world to the nation’s rich culture and bright future</h1><br>Designed in the shape of a falcon in flight, the UAE Pavilion will be a major attraction at Expo 2020 Dubai.<br><br>The pavilion will tell the history of the nation as a connected global hub, and the vision of its leaders to create a peaceful and progressive society with ambitious plans for the future.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/uae\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/uae/expo2020-pavilion-uae-1-3200-x-2000.jpg?h=1800&w=3200&hash=1DF0F55DDBF7A314470B061E6921AC0B"
@@ -314,7 +314,7 @@
   {
     "pavilionId": "uk",
     "name": "United Kingdom",
-    "description": "UK pavilion",
+    "description": "<h1>Gaze into the future and add your voice to a continuously changing poem</h1><br><br>The UK Pavilion is inspired by a project from the late scientist Stephen Hawking, in which he pondered how humanity could express itself to an extraterrestrial civilisation.<br><br>The pavilion will offer an awe-inspiring glimpse into the future, exploring everything from the commercialisation of space to artificial intelligence.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/uk\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/uk/expo2020-pavilion-uk-2-3200-x-2000.jpg?h=1800&w=3200&hash=7E50A2E2D9C934F422ED2CB4D6250B38"
@@ -322,7 +322,7 @@
   {
     "pavilionId": "ukraine",
     "name": "Ukraine",
-    "description": "Ukraine pavilion",
+    "description": "<h1>Discover how future technologies and clever ideas can help create a more balanced world</h1><br><br>Smart living, smart thinking and smart feelings will come together at the Ukraine Pavilion, as the nation demonstrates how bright ideas and the latest innovations can help to create a better future.<br><br>With inventions ranging from an e-bike that can travel 380 kilometres on a single charge, to blinds that use sunlight to generate electricity, the structure will showcase the innovative spirit of Ukraine while exploring its cultural heritage. The pavilion will also use picturesque flora to create a restful ambiance for visitors.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/ukraine\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/ukraine/expo2020-ukraine-3200x1800.jpg?h=1800&w=3200&hash=C2D9473443F588ED4440A39F41B21B7E"
@@ -330,7 +330,7 @@
   {
     "pavilionId": "usa",
     "name": "United States of America",
-    "description": "USA pavilion",
+    "description": "<h1>What Moves You? The Spirit of Mobility</h1><br><br>As you wander past the USA Pavilion, you might stop to question whether the building itself is moving – an effect created by the structure’s innovative design.<br> Visit here: <a href=\"https://www.expo2020dubai.com/en/discover/pavilions/usa\" target=\"_blank\">For more details</a>",
     "growZoneNumber": 9,
     "visitingInterval": 7,
     "imageUrl": "https://www.expo2020dubai.com/-/media/expo2020/pavilions/ukraine/expo2020-ukraine-3200x1800.jpg?h=1800&w=3200&hash=C2D9473443F588ED4440A39F41B21B7E"

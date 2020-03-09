@@ -7,31 +7,36 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Home" />
+            android:title="Home"
+            tools:ignore="HardcodedText" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Gallery"
+            tools:ignore="HardcodedText" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Slideshow"
+            tools:ignore="HardcodedText" />
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Tools"
+            tools:ignore="HardcodedText" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Communicate"
+        tools:ignore="HardcodedText">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Follow us!" />
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
             <item
-                    android:id="@+id/nav_info"
+                    android:id="@+id/nav_contact"
                     android:icon="@drawable/ic_info"
-                    android:title="Info" />
+                    android:title="Contact" />
         </menu>
     </item>
 

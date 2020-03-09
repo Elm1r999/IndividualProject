@@ -2,4 +2,8 @@
 <resources>
     <string name="empty_string" />
     <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="login_text">Login Now</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account_yet_register_now">No account yet? Register now!</string>
 </resources>

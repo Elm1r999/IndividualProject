@@ -46,5 +46,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/generateQRCode" />
 
+    <TextView
+        android:id="@+id/tv_qrcodeDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="Press the button to create your unique Barcode and QR Code for scanning the user details. \n \n Use these codes for registration as well as purchases in our pavilions and shops."
+        app:layout_constraintBottom_toTopOf="@+id/generateQRCode"
+        android:fontFamily="@font/google_sans_medium"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="@color/pavilion_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

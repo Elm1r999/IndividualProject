@@ -4,21 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -34,9 +27,9 @@ public class RegisterActivity extends AppCompatActivity {
     Button mRegisterBtn;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
-    ProgressBar progressBar;
     FirebaseFirestore fStore;
     String userID;
+    TextInputLayout textInputPhoneNo, textInputPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,34 +41,38 @@ public class RegisterActivity extends AppCompatActivity {
         mPassword   = findViewById(R.id.password);
         mPhone      = findViewById(R.id.phone);
         mRegisterBtn= findViewById(R.id.registerBtn);
-        mLoginBtn   = findViewById(R.id.createText);
+        mLoginBtn   = findViewById(R.id.create_newAcc_link);
+        textInputPhoneNo = findViewById(R.id.phoneTextInputLayout);
+        textInputPassword = findViewById(R.id.passwordTextInputLayout);
 
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
-        progressBar = findViewById(R.id.progressBar);
 
         mRegisterBtn.setOnClickListener(v -> {
+            final String fullName = mFullName.getText().toString();
+            String phone = mPhone.getText().toString().trim();
             final String email = mEmail.getText().toString().trim();
             String password = mPassword.getText().toString().trim();
-            final String fullName = mFullName.getText().toString();
-            final String phone = mPhone.getText().toString();
 
             if(TextUtils.isEmpty(email)){
-                mEmail.setError("Email is Required.");
+                mEmail.setError("Field cannot be empty.");
                 return;
             }
 
             if(TextUtils.isEmpty(password)){
-                mPassword.setError("Password is Required.");
+                mPassword.setError("Field cannot be empty.");
+                return;
+            }
+
+            if(phone.length() > 15){
+                textInputPhoneNo.setError("Maximum 15 digits");
                 return;
             }
 
             if(password.length() < 6){
-                mPassword.setError("Password Must be >= 6 Characters");
+                textInputPassword.setError("Password must be minimum 6 characters");
                 return;
             }
-
-            progressBar.setVisibility(View.VISIBLE);
 
             // register the user in firebase
             fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(task -> {
@@ -92,8 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
                 }else {
-                    Toast.makeText(RegisterActivity.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                    progressBar.setVisibility(View.GONE);
+                    Toast.makeText(RegisterActivity.this, "Error! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                 }
             });
         });

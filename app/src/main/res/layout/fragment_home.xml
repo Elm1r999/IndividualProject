@@ -37,10 +37,14 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="620dp"
+            android:layout_height="630dp"
             android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:columnOrderPreserved="false"
+            android:paddingTop="30dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
             android:rowCount="3">
 
             <androidx.cardview.widget.CardView

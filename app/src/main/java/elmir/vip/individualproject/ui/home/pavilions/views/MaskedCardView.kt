@@ -29,6 +29,7 @@ class MaskedCardView @JvmOverloads constructor(
         defStyle,
         R.style.Widget_MaterialComponents_CardView
     )
+
     private val rectF = RectF(0f, 0f, 0f, 0f)
 
     override fun onDraw(canvas: Canvas) {

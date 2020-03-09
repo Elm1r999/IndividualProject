@@ -17,7 +17,7 @@ data class Pavilion(
 ) {
 
     /**
-     * Determines if the pavilion should be watered.  Returns true if [since]'s date > date of last
+     * Determines if the pavilion should be visited. Returns true if [since]'s date > date of last
      * visit + visit Interval; false otherwise.
      */
     fun visitedDate(since: Calendar, lastVisitDate: Calendar) =

@@ -19,8 +19,7 @@ class PavilionAdapter : ListAdapter<Pavilion, RecyclerView.ViewHolder>(PavilionD
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return PavilionViewHolder(
-            ListItemPavilionBinding.inflate(
-                LayoutInflater.from(parent.context), parent, false))
+            ListItemPavilionBinding.inflate(LayoutInflater.from(parent.context), parent, false))
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
