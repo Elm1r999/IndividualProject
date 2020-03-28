@@ -9,8 +9,10 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_logout">Logout</string>
 
+    <string name="google_maps_api">AIzaSyDQrUrFnKt19Pjpb2b5klgSgs6CMx_co8c</string>
+
     <!-- Translatable resources -->
-    <string name="menu_filter_by_grow_zone">Filter by grow zone</string>
+    <string name="filter_items_menu">Filter</string>
     <string name="pavilion_detail_image_content_description">Image of pavilion</string>
     <string name="my_list_title">My Pavilions List</string>
     <string name="pavilion_list_title">Pavilion list</string>
@@ -31,9 +33,9 @@
         <item quantity="other" translation_description="Suffix for the text describing when pavilion should be visited, plural.">in %d days</item>
     </plurals>
 
-    <plurals name="watering_next">
-        <item quantity="one" translation_description="Text indicating when the the Pavilion should next be visited, singular. Used in conjunction with last visited date.">Visit tomorrow.</item>
-        <item quantity="other" translation_description="Text indicating when the the Pavilion should next be visited, plural. Used in conjunction with last visited date.">Visit in %d days.</item>
+    <plurals name="visiting_next">
+        <item quantity="one">Visit tomorrow.</item>
+        <item quantity="other">Visit in %d days.</item>
     </plurals>
 
     <!-- Accessibility -->
@@ -62,5 +64,5 @@
     <string name="no_account_yet_register_now">No account yet? Register now!</string>
     <string name="sign_in">Sign In</string>
     <string name="email_address">Email Address</string>
-
+    <string name="feedback_steps">If you would like to post feedback or share anything, please proceed with the button below</string>
 </resources>

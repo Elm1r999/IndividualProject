@@ -50,9 +50,9 @@ public class HomeFragment extends Fragment {
             startActivity(intent);
         });
 
-        ImageView img_AboutUae = root.findViewById(R.id.img_AboutUae);
+        ImageView img_AboutUae = root.findViewById(R.id.img_AboutDubai);
         img_AboutUae.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), AboutUAEActivity.class);
+            Intent intent = new Intent(getActivity(), AboutDubaiActivity.class);
             startActivity(intent);
         });
         return root;

@@ -4,7 +4,7 @@ import elmir.vip.individualproject.ui.home.pavilions.utilities.getZoneForLatitud
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class GrowZoneUtilTest {
+class ItemZoneUtilTest {
 
     @Test fun getZoneForLatitude() {
         assertEquals(13, getZoneForLatitude(0.0))

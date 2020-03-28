@@ -18,26 +18,21 @@
             tools:layout="@layout/fragment_gallery" />
 
     <fragment
-            android:id="@+id/nav_slideshow"
-            android:name="elmir.vip.individualproject.ui.slideshow.SlideshowFragment"
-            android:label="Slideshow"
-            tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_location"
+        android:name="elmir.vip.individualproject.ui.location_map.LocationAccessFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location_permission" />
 
     <fragment
-            android:id="@+id/nav_tools"
-            android:name="elmir.vip.individualproject.ui.tools.ToolsFragment"
-            android:label="Tools"
-            tools:layout="@layout/fragment_tools" />
-
-    <fragment
-            android:id="@+id/nav_share"
-            android:name="elmir.vip.individualproject.ui.share.ShareFragment"
-            android:label="Share"
+            android:id="@+id/nav_chat_netwoking"
+            android:name="elmir.vip.individualproject.ui.share.SocialNetworkingFragment"
+            android:label="Networking"
             tools:layout="@layout/fragment_share" />
 
     <fragment
-            android:id="@+id/nav_contact"
-            android:name="elmir.vip.individualproject.ui.contact.ContactFragment"
-            android:label="Send"
-            tools:layout="@layout/fragment_contact" />
+        android:id="@+id/nav_contact"
+        android:name="elmir.vip.individualproject.ui.contact.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+
 </navigation>

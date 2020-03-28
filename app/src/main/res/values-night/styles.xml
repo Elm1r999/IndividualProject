@@ -6,7 +6,7 @@
         <item name="colorOnPrimary">@color/pavilion_yellow_300</item>
         <item name="colorPrimaryDark">@color/pavilion_gray_50_a600</item>
         <item name="colorOnSurface">@color/pavilion_white</item>
-        <item name="colorAccent">@color/pavilion_green_300</item>
+        <item name="colorAccent">@color/yellow</item>
         <item name="colorSurface">@color/pavilion_green_900</item>
         <item name="colorSecondary">@color/pavilion_yellow_300</item>
         <item name="android:colorBackground">@color/pavilion_green_900</item>

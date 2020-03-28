@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="@dimen/margin_normal"
-                android:text="@{@plurals/watering_next(viewModel.visitInterval, viewModel.visitInterval)}"
+                android:text="@{@plurals/visiting_next(viewModel.visitInterval, viewModel.visitInterval)}"
                 android:gravity="center_horizontal"
                 android:textAppearance="?attr/textAppearanceSubtitle2"
                 app:layout_constraintEnd_toEndOf="parent"

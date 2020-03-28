@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-
     <!-- colors for button style -->
     <color name="gradient_start_color">#4c84ff</color>
     <color name="gradient_end_color">#18a3fe</color>
@@ -17,9 +14,7 @@
         <color name="pavilion_black">#de000000</color>
         <color name="pavilion_gray_50">#fafafa</color>
         <color name="pavilion_gray_50_a600">#99fafafa</color>
-        <color name="pavilion_green_300">#6dc790</color>
-        <color name="pavilion_green_500">#49bb79</color>
-        <color name="pavilion_green_700">#005d2b</color>
+        <color name="pavilion_yellow_400">#FFDD00</color>
         <color name="pavilion_green_900">#1a231e</color>
         <color name="pavilion_white">#deffffff</color>
         <color name="pavilion_yellow_300">#f8f99f</color>

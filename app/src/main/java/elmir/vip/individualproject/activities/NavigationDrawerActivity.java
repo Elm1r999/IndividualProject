@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -22,6 +23,8 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import elmir.vip.individualproject.R;
+import elmir.vip.individualproject.ui.feed_wall.view_controller.MainActivity;
+import elmir.vip.individualproject.ui.feed_wall.view_controller.PostActivity;
 
 public class NavigationDrawerActivity extends AppCompatActivity {
 
@@ -30,6 +33,7 @@ public class NavigationDrawerActivity extends AppCompatActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     String userId;
+    ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,14 +47,13 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_contact)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_location,
+                R.id.nav_chat_netwoking, R.id.nav_contact)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-
         updateProfileHeader();
     }
 
@@ -68,6 +71,12 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         documentReference.addSnapshotListener(this, (documentSnapshot, e) -> {
             fullName.setText(documentSnapshot.getString("fName"));
             email.setText(documentSnapshot.getString("email"));
+        });
+
+        img = headerView.findViewById(R.id.profImage);
+        img.setOnClickListener(v -> {
+            Intent intent=new Intent(this, MainActivity.class); //getApplicationContext()
+            startActivity(intent);
         });
     }
 

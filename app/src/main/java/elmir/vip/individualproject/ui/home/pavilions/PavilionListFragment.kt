@@ -44,7 +44,7 @@ class PavilionListFragment : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.filter_zone -> {
+            R.id.filterItems -> {
                 updateData()
                 true
             }
@@ -61,9 +61,9 @@ class PavilionListFragment : Fragment() {
     private fun updateData() {
         with(viewModel) {
             if (isFiltered()) {
-                clearGrowZoneNumber()
+                clearZoneNumber()
             } else {
-                setGrowZoneNumber(9)
+                setZoneNumber(9)
             }
         }
     }

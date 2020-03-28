@@ -15,14 +15,9 @@
             android:title="Gallery"
             tools:ignore="HardcodedText" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools"
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_map_pin"
+            android:title="Location"
             tools:ignore="HardcodedText" />
     </group>
 
@@ -30,9 +25,10 @@
         tools:ignore="HardcodedText">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_chat_netwoking"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Networking" />
+
             <item
                     android:id="@+id/nav_contact"
                     android:icon="@drawable/ic_info"

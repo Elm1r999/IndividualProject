@@ -3,10 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!--
-     Note: even though the IDs for the CoordinatorLayout and the AppBarLayout unused in HomeViewPagerFragment, they are
-     both required to preserve the toolbar scroll / collapse state when navigating to a new screen and then coming back.
-    -->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinator_layout"
         android:layout_width="match_parent"
@@ -38,12 +34,14 @@
                     style="@style/Widget.MaterialComponents.Toolbar.Primary"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
+                    android:background="@color/yellow"
                     app:layout_collapseMode="parallax">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="?attr/actionBarSize"
                         android:gravity="center"
+                        android:background="@color/yellow"
                         android:text="@string/empty_string"
                         android:textAppearance="?attr/textAppearanceHeadline5" />
 
@@ -57,6 +55,7 @@
                 style="@style/Widget.MaterialComponents.TabLayout.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                android:background="@color/yellow"
                 app:tabIconTint="@drawable/tab_icon_color_selector"
                 app:tabTextColor="?attr/colorPrimaryDark"/>
 

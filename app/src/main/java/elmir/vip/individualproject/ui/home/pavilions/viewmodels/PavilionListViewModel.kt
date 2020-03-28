@@ -13,27 +13,27 @@ import elmir.vip.individualproject.ui.home.pavilions.data.PavilionRepository
  */
 class PavilionListViewModel internal constructor(pavilionRepository: PavilionRepository) : ViewModel() {
 
-    private val growZoneNumber = MutableLiveData<Int>(NO_GROW_ZONE)
+    private val zoneNumber = MutableLiveData<Int>(NO_ITEM_ZONE)
 
-    val pavilions: LiveData<List<Pavilion>> = growZoneNumber.switchMap {
-        if (it == NO_GROW_ZONE) {
+    val pavilions: LiveData<List<Pavilion>> = zoneNumber.switchMap {
+        if (it == NO_ITEM_ZONE) {
             pavilionRepository.getPavilions()
         } else {
             pavilionRepository.getPavsWithZoneNumber(it)
         }
     }
 
-    fun setGrowZoneNumber(num: Int) {
-        growZoneNumber.value = num
+    fun setZoneNumber(num: Int) {
+        zoneNumber.value = num
     }
 
-    fun clearGrowZoneNumber() {
-        growZoneNumber.value = NO_GROW_ZONE
+    fun clearZoneNumber() {
+        zoneNumber.value = NO_ITEM_ZONE
     }
 
-    fun isFiltered() = growZoneNumber.value != NO_GROW_ZONE
+    fun isFiltered() = zoneNumber.value != NO_ITEM_ZONE
 
     companion object {
-        private const val NO_GROW_ZONE = -1
+        private const val NO_ITEM_ZONE = -1
     }
 }

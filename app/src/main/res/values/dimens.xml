@@ -28,4 +28,7 @@
 
     <dimen name="spacing_normal">8dp</dimen>
     <dimen name="spacing_micro">4dp</dimen>
+
+    <dimen name="location_fab_margin">16dp</dimen>
+    <dimen name="card_padding">40dp</dimen>
 </resources>

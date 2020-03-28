@@ -11,11 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SnapHelper;
-import com.github.rubensousa.gravitysnaphelper.GravitySnapHelper;
 
+import com.github.rubensousa.gravitysnaphelper.GravitySnapHelper;
 import java.util.ArrayList;
 import java.util.List;
-
 import elmir.vip.individualproject.R;
 
 public class EventsActivity extends AppCompatActivity {
@@ -34,48 +33,48 @@ public class EventsActivity extends AppCompatActivity {
         eventList = new ArrayList<>();
         eventList.add(
                 new Event(
-                        "Ecoturism with a Master Pank",
-                        "WORKSHOP",
-                        R.drawable.picone
+                        "Live Performances",
+                        "ENTERTAINMENT",
+                        R.drawable.expo2020_liveentertainment
                 )
         );
 
         eventList.add(
                 new Event(
-                        "Cooking with Me and Julie",
-                        "CLASSES",
-                        R.drawable.pictwo
+                        "Cultural Experiences",
+                        "ART",
+                        R.drawable.expo2020_arts_culture
                 )
         );
 
         eventList.add(
                 new Event(
-                        "Learn Gratitude from Monk",
+                        "Business and Innovations",
                         "SEMINAR",
-                        R.drawable.picone
+                        R.drawable.expo2020_business
                 )
         );
         eventList.add(
                 new Event(
-                        "Ecoturism with a Master Pank",
-                        "WORKSHOP",
-                        R.drawable.picone
-                )
-        );
-
-        eventList.add(
-                new Event(
-                        "Cooking with Me and Julie",
-                        "CLASSES",
-                        R.drawable.pictwo
+                        "National Days",
+                        "FESTIVAL",
+                        R.drawable.expo2020_nationaldays
                 )
         );
 
         eventList.add(
                 new Event(
-                        "Learn Gratitude from Monk",
-                        "SEMINAR",
-                        R.drawable.picone
+                        "Global Cuisines",
+                        "FESTIVAL",
+                        R.drawable.expo2020_food
+                )
+        );
+
+        eventList.add(
+                new Event(
+                        "Nightlife Shows",
+                        "ENTERTAINMENT",
+                        R.drawable.expo2020_nightshow
                 )
         );
 
@@ -92,30 +91,22 @@ public class EventsActivity extends AppCompatActivity {
         final SnapHelper snapHelper = new GravitySnapHelper(Gravity.START);
         snapHelper.attachToRecyclerView(eventsPlace);
 
-
-
         // set a timer for default item
         final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                // Do something after 1ms = 100ms
-                RecyclerView.ViewHolder viewHolderDefault = eventsPlace.
-                        findViewHolderForAdapterPosition(0);
+        handler.postDelayed(() -> {
+            RecyclerView.ViewHolder viewHolderDefault = eventsPlace.
+                    findViewHolderForAdapterPosition(0);
 
-                LinearLayout eventparentDefault = viewHolderDefault.itemView.
-                        findViewById(R.id.eventparent);
-                eventparentDefault.animate().scaleY(1).scaleX(1).setDuration(350).
-                        setInterpolator(new AccelerateInterpolator()).start();
+            LinearLayout eventparentDefault = viewHolderDefault.itemView.
+                    findViewById(R.id.eventparent);
+            eventparentDefault.animate().scaleY(1).scaleX(1).setDuration(350).
+                    setInterpolator(new AccelerateInterpolator()).start();
 
-                LinearLayout eventcategoryDefault = viewHolderDefault.itemView.
-                        findViewById(R.id.eventbadge);
-                eventcategoryDefault.animate().alpha(1).setDuration(300).start();
+            LinearLayout eventcategoryDefault = viewHolderDefault.itemView.
+                    findViewById(R.id.eventbadge);
+            eventcategoryDefault.animate().alpha(1).setDuration(300).start();
 
-            }
         }, 100);
-
-
 
         // add animate scroll
         eventsPlace.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -130,13 +121,13 @@ public class EventsActivity extends AppCompatActivity {
                     RecyclerView.ViewHolder viewHolder =
                             eventsPlace.findViewHolderForAdapterPosition(pos);
 
-                    LinearLayout eventparent = viewHolder.itemView.findViewById(R.id.eventparent);
-                    eventparent.animate().scaleY(1).scaleX(1).setDuration(350).
+                    LinearLayout eventParent = viewHolder.itemView.findViewById(R.id.eventparent);
+                    eventParent.animate().scaleY(1).scaleX(1).setDuration(350).
                             setInterpolator(new AccelerateInterpolator()).start();
 
-                    LinearLayout eventcategory = viewHolder.itemView.
+                    LinearLayout eventCategory = viewHolder.itemView.
                             findViewById(R.id.eventbadge);
-                    eventcategory.animate().alpha(1).setDuration(300).start();
+                    eventCategory.animate().alpha(1).setDuration(300).start();
 
                 }
                 else {
@@ -147,15 +138,14 @@ public class EventsActivity extends AppCompatActivity {
                     RecyclerView.ViewHolder viewHolder =
                             eventsPlace.findViewHolderForAdapterPosition(pos);
 
-                    LinearLayout eventparent = viewHolder.itemView.findViewById(R.id.eventparent);
-                    eventparent.animate().scaleY(0.7f).scaleX(0.7f).
+                    LinearLayout eventParent = viewHolder.itemView.findViewById(R.id.eventparent);
+                    eventParent.animate().scaleY(0.7f).scaleX(0.7f).
                             setInterpolator(new AccelerateInterpolator()).setDuration(350).start();
 
-                    LinearLayout eventcategory = viewHolder.itemView.
+                    LinearLayout eventCategory = viewHolder.itemView.
                             findViewById(R.id.eventbadge);
-                    eventcategory.animate().alpha(0).setDuration(300).start();
+                    eventCategory.animate().alpha(0).setDuration(300).start();
                 }
-
             }
 
             @Override

@@ -4,11 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputLayout;
@@ -30,6 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
     FirebaseFirestore fStore;
     String userID;
     TextInputLayout textInputPhoneNo, textInputPassword;
+    AlertDialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,12 +59,12 @@ public class RegisterActivity extends AppCompatActivity {
             String password = mPassword.getText().toString().trim();
 
             if(TextUtils.isEmpty(email)){
-                mEmail.setError("Field cannot be empty.");
+                mEmail.setError("Field cannot be empty");
                 return;
             }
 
             if(TextUtils.isEmpty(password)){
-                mPassword.setError("Field cannot be empty.");
+                textInputPassword.setError("Field cannot be empty");
                 return;
             }
 
@@ -77,23 +81,42 @@ public class RegisterActivity extends AppCompatActivity {
             // register the user in firebase
             fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(task -> {
                 if(task.isSuccessful()){
-                    Toast.makeText(RegisterActivity.this, "User Created.", Toast.LENGTH_SHORT).show();
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    LayoutInflater inflater = this.getLayoutInflater();
+                    builder.setView(inflater.inflate(R.layout.loading_dialog_alert, null));
+                    dialog = builder.create();
+                    dialog.show();
+
                     userID = fAuth.getCurrentUser().getUid();
                     DocumentReference documentReference = fStore.collection("users").document(userID);
                     Map<String,Object> user = new HashMap<>();
                     user.put("fName",fullName);
                     user.put("email",email);
                     user.put("phone",phone);
-                    documentReference.set(user).addOnSuccessListener(aVoid -> Log.d(TAG, "onSuccess: user Profile is created for "+ userID))
+                    documentReference.set(user).addOnSuccessListener(aVoid -> Log.d(TAG, "onSuccess: User profile is created for "+ userID))
                                                .addOnFailureListener(e -> Log.d(TAG, "onFailure: " + e.toString()));
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
-
+                    startActivity(new Intent(getApplicationContext(), NavigationDrawerActivity.class));
                 }else {
-                    Toast.makeText(RegisterActivity.this, "Error! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    LayoutInflater inflater = this.getLayoutInflater();
+                    builder.setView(inflater.inflate(R.layout.loading_dialog_alert, null));
+                    dialog = builder.create();
+                    dialog.show();
+
+                    AlertDialog.Builder error_builder = new AlertDialog.Builder(this);
+                    error_builder.setTitle("Error, please try again");
+                    LinearLayout linearLayout = new LinearLayout(this);
+                    TextView textView = new TextView(this);
+                    linearLayout.addView(textView);
+                    error_builder.setView(linearLayout);
+                    error_builder.setMessage(task.getException().getMessage());
+                    error_builder.setNeutralButton("OK", (dialog, which) -> {
+                        dialog.dismiss();
+                    });
+                    error_builder.create().show();
                 }
             });
         });
-
         mLoginBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), LoginActivity.class)));
     }
 }

@@ -47,7 +47,7 @@ class PavilionMenuFragment : Fragment() {
         }
     }
 
-    // TODO: convert to data binding if applicable
+    // convert to data binding if applicable
     private fun navigateToPavilionListPage() {
         requireActivity().findViewById<ViewPager2>(R.id.view_pager).currentItem =
             PAVILION_LIST_PAGE_INDEX
