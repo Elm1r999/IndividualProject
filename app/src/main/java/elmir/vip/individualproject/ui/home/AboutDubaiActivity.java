@@ -12,25 +12,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import elmir.vip.individualproject.R;
 
 public class AboutDubaiActivity extends AppCompatActivity {
-
     ProgressBar progressBar;
-
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_uae);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         progressBar = findViewById(R.id.pBar_visitingDubai);
-
         WebView webView = findViewById(R.id.webView_visitingDubai);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new AboutDubaiActivity.WebViewClient());
         webView.loadUrl("https://www.expo2020dubai.com/en/support/visiting-uae/visiting-dubai");
-
     }
+
     public class WebViewClient extends android.webkit.WebViewClient {
 
         @Override
@@ -50,5 +45,4 @@ public class AboutDubaiActivity extends AppCompatActivity {
             progressBar.setVisibility(View.GONE);
         }
     }
-
 }

@@ -1,5 +1,6 @@
 package elmir.vip.individualproject.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
@@ -31,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     AlertDialog dialog;
     TextInputLayout tiEmail, tiPassword;
 
+    @SuppressLint("InflateParams")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            // authenticate the user
+            // authentication
             fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(task -> {
                 if(task.isSuccessful()){
                     AlertDialog.Builder builder = new AlertDialog.Builder(this);

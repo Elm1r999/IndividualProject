@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/item_event"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/eventparent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgitemcustom"
+        android:orientation="vertical"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:shape_roundRect_topLeftRadius="8dp"
+            app:shape_roundRect_topRightRadius="8dp">
+
+            <ImageView
+                android:id="@+id/eventpicture"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:contentDescription=" "
+                android:scaleType="fitCenter"
+                android:src="@drawable/expo_logo_cropped"
+                tools:ignore="HardcodedText" />
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+        <TextView
+            android:id="@+id/eventtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/mr"
+            android:lineSpacingExtra="8dp"
+            android:text="Event Name"
+            android:textColor="#374160"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/eventbadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:alpha="0"
+            android:background="@drawable/badgeorange"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/eventcategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mm"
+                android:text="EVENT_TYPE"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

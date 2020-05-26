@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <LinearLayout
+        android:id="@+id/collapsible_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:minHeight="?android:listPreferredItemHeightSmall"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/margin_normal"
+            android:paddingStart="@dimen/margin_normal">
+
+            <TextView
+                android:id="@+id/card_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/spacing_micro"
+                android:paddingTop="@dimen/spacing_micro"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.CollapsibleCard"
+                tools:text="Title for question" />
+
+            <ImageView
+                android:id="@+id/expand_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_normal"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_expand_more" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/card_description"
+            style="@style/MultilineBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/margin_normal"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingEnd="@dimen/margin_normal"
+            android:paddingBottom="@dimen/margin_normal"
+            android:textAlignment="viewStart"
+            android:textColor="?android:textColorPrimary"
+            android:visibility="gone"
+            tools:text="Answer with information"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</merge>
